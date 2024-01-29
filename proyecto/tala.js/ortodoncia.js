@@ -32,24 +32,3 @@ function autoSlide() {
 
 // Iniciar el avance automático con setInterval
 setInterval(autoSlide, intervalTime);
-
-document.addEventListener("DOMContentLoaded", function() {
-    var menuItems = document.querySelectorAll("#menu li a");
-    var informacionDetallada = document.getElementById("informacion-detallada");
-
-    menuItems.forEach(function(item) {
-        item.addEventListener("click", function(event) {
-            event.preventDefault();
-            var selectedItem = event.target;
-            mostrarInformacion(selectedItem);
-        });
-    });
-
-    function mostrarInformacion(selectedItem) {
-        // Obtenemos la información personalizada del atributo data-info
-        var infoDetallada = selectedItem.getAttribute("data-info");
-
-        // Mostramos la información en el contenedor
-        informacionDetallada.innerHTML = "<p>" + infoDetallada + "</p>";
-    }
-});

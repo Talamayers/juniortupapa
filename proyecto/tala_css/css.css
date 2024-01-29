@@ -26,7 +26,7 @@ body {
     height: 70%;
   }
   .header-right {
-    width: 35%;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +69,7 @@ ul, ol {
 }
 
 .menu li a{
-background-color: rgba(7, 63, 126, 0.548);
+background-color: #003366;
 color: white;
 text-decoration: none;
 padding: 10px 15px;
@@ -96,18 +96,20 @@ display: block;
  .menu{
     background-color: rgba(7, 63, 126, 0.781);
     display: flex;
+    padding-left: 0;
+    padding-right: 0;
  }
  .menu li input{
     background-color: rgba(7, 63, 126, 0.781);
     color: white;
     text-decoration: none;
-   
     display: block;
  }
- 
+
  .menu li:hover > ul{
     display: block;
  }
+
 
 .barra{
 background-color: rgba(7, 63, 126, 0.781);
@@ -116,7 +118,7 @@ border: 1px solid rgb(56, 54, 54);
 border-radius: 10px;
 width: 250px;
 height: 32px;
-padding: auto;
+padding: 0;
 display: flex;
 justify-content: center;
 margin-top: 2px;
@@ -139,7 +141,7 @@ border: 1px solid rgb(48, 47, 47);
     transition: transform 0.4s ease;     
   }
   
-  .slider .img {
+  .slider.img {
     width: 100%;
     height: 100%;
   }
@@ -342,7 +344,68 @@ aside.h1{
   justify-content: center;
   text-decoration: none;
 }
+.ses3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
 
-  
-  
+
+
+
+.sub3{
+  width: 100%;
+}
+.h4{
+  width: 70%;
+  margin: 0%;
+  text-align: center;
+}
+
+.div-h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.ses3-boton{
+  background-color: #fefeff;
+  margin-top: 30px;
+  font-size: larger;
+}
+section{
+  width: 100%;
+  height: 300px;
+  background-color:  #003366;
+}
+.img-section{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+
+.div-section{
+  width: 100%;
+}
+  #h1-section{
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    font-size: medium;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+ .hr-section{
+  background-color: #fff;
+ }
+ .footer{
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+ }
   
