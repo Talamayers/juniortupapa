@@ -113,43 +113,50 @@
     <hr>
     <div class="display">
         <section class="form-register">
-            <h2>llena tus datos y nsotros te Contactamos</h2>
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre">
-            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellido">
-            <input class="controls" type="email" name="correo" id="email" placeholder="Correo">
-            <input class="controls" type="password" name="correo" id="password" placeholder="Numero de telefono">
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Tipo de documento">
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Numero de documento">
-            <select class="controlss">
-                <option value="opcion1" selected hidden>Servicio odontologico</option>
-                <option value="opcion2">Ortodoncia</option>
-                <option value="opcion3">Implante</option>
-                <option value="opcion3">Diseño de sonrisa</option>
-            </select>
-            <select class="controlss">
-                <option value="opcion1" selected hidden>Ciudad de Contacto</option>
-                <option value="opcion2">Dorada</option>
-                <option value="opcion3">Barranquilla</option>
-                <option value="opcion3">Manizales</option>
-            </select>
-            <select class="controlss">
-                <option value="opcion1" selected hidden>Horario de atencion </option>
-                <option value="opcion2">7 am - 11 am</option>
-                <option value="opcion3">2 pm - 5 pm</option>
-            </select>
-
-            <a href="file:///C:/xampp/htdocs/login/index.html">
-
-                    <div class="botones">
-                        <input class="botons" type="submit" value="Enviar formulario">
-                    </div>
-                </form>
-            </a>
-
+            <h2>llena tus datos y nosotros te Contactamos</h2>
+    
+            <form action="../php.php/index.php" method="post">
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre">
+    
+                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellido">
+    
+                <input class="controls" type="email" name="correo" id="email" placeholder="Correo">
+    
+                <input class="controls" type="number" name="numero" id="numero" placeholder="Numero de telefono">
+    
+                <input class="controls" type="text" name="tipoDocumento" id="tipoDocumento" placeholder="Tipo de documento">
+    
+                <input class="controls" type="text" name="numeroDocumento" id="numeroDocumento" placeholder="Numero de documento">
+    
+                <select class="controlss" name="servicioOdontologico">
+                    <option value="opcion1" selected hidden>Servicio odontologico</option>
+                    <option value="Ortodoncia">Ortodoncia</option>
+                    <option value="Implante">Implante</option>
+                    <option value="Diseño de sonrisa">Diseño de sonrisa</option>
+                </select>
+    
+                <select class="controlss" name="ciudadContacto">
+                    <option value="opcion1" selected hidden>Ciudad de Contacto</option>
+                    <option value="Dorada">Dorada</option>
+                    <option value="Barranquilla">Barranquilla</option>
+                    <option value="Manizales">Manizales</option>
+                </select>
+    
+                <select class="controlss" name="horarioAtencion">
+                    <option value="opcion1" selected hidden>Horario de atencion</option>
+                    <option value="7 am - 11 am">7 am - 11 am</option>
+                    <option value="2 pm - 5 pm">2 pm - 5 pm</option>
+                </select>
+    
+                <div class="botones">
+                    <input class="botons" type="submit" value="Enviar formulario">
+                </div>
+            </form>
         </section>
-
+    
         <img src="../imagenes/imagen formularii.png" alt="">
     </div>
+    
     <H1 class="Tratamientos">Tratamientos integrales</H1>
 
     <div class="ses3">

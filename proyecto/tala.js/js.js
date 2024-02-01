@@ -5,7 +5,7 @@ const nextBtn = document.querySelector(".next-btn");
 let counter = 0;
 const images = document.querySelectorAll(".slider img");
 const slideWidth = images[0].clientWidth;
-const intervalTime = 1000;
+const intervalTime = 5000;
 function nextSlide() {
   counter++;
   if (counter >= images.length) {
